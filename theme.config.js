@@ -46,7 +46,7 @@ const config = {
   toc: {
     float: true
   },
-  docsRepositoryBase: 'https://github.com/Pix3lPirat3/mineflayer-guide/tree/main/',
+  docsRepositoryBase: 'https://github.com/Pix3lPirat3/mineflayer-guide/',
   feedback: {
     content: null
   },
