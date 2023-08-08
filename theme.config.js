@@ -11,6 +11,11 @@ const config = {
       </sup>
     </>// // this double slash stops IDE from freaking out
   ),
+  useNextSeoProps: function() {
+    return {
+      titleTemplate: '%s'
+    }
+  }
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
