@@ -24,10 +24,12 @@ const config = {
       </>
     )
   },
-  useNextSeoProps: function() {
+  useNextSeoProps: () => {
     const { frontMatter } = useConfig()
-    description: frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.',
-    titleTemplate: '%s – Guide'
+    return: {
+      titleTemplate: '%s – Guide',
+      description: frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.'
+    }
   },
   footer: {
     text: `MIT License ${new Date().getFullYear()}`
