@@ -3,7 +3,7 @@ const withNextra = require('nextra')({
     themeConfig: './theme.config.js',
 })
 module.exports = withNextra({
-  basePath: '/mineflayer-guide',
+  basePath: process.env.NODE_ENV === 'development' ? '' : '/mineflayer-guide',
   images: {
     unoptimized: true
   }
