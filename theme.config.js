@@ -24,6 +24,11 @@ const config = {
       </>
     )
   },
+  useNextSeoProps() {
+    const { frontMatter } = useConfig()
+      description: frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.',
+      titleTemplate: '%s – Guide'
+  },
   footer: {
     text: `MIT License ${new Date().getFullYear()}`
   },
