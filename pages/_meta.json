@@ -1,7 +1,10 @@
 {
   "index": "Introduction",
   "windows": "Windows",
-  "contact": {
+  "entities": "Entities",
+  "movements": "Movements",
+  "pathfinding": "Pathfinding",
+  "api": {
     "title": "API",
     "type": "page",
     "href": "https://prismarinejs.github.io/mineflayer/#/api",
