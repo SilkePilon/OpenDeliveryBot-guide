@@ -33,7 +33,24 @@ const config = {
   chat: {
     link: 'https://discord.gg/prismarinejs-413438066984747026',
   },
-  docsRepositoryBase: 'https://github.com/Pix3lPirat3/mineflayer-guide/'
+  nextThemes: {
+    defaultTheme: 'dark'
+  },
+  banner: {
+    key: 'pjs-disclaimer',
+    text: 'This is not official documentation for PrismarineJS'
+  },
+  sidebar: {
+    toggleButton: true
+  },
+  toc: {
+    float: true
+  },
+  docsRepositoryBase: 'https://github.com/Pix3lPirat3/mineflayer-guide/',
+  feedback: {
+    content: null
+  },
+  primaryHue: 190,
 }
 
 export default config
