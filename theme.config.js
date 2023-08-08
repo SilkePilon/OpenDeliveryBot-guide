@@ -1,3 +1,6 @@
+let { useRouter } = require('next/router');
+let { useConfig } = require('nextra-theme-docs');
+
 const config = {
   logoLink: '/',
   logo: (
@@ -11,11 +14,18 @@ const config = {
       </sup>
     </>// // this double slash stops IDE from freaking out
   ),
-  useNextSeoProps: function() {
-    return {
-      titleTemplate: '%s'
-    }
-  },
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+ 
+    return (
+      <>
+        <meta property="og:title" content={frontMatter.title || '🦃'} />
+        <meta property="og:description" content={frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.'}
+        />
+      </>
+    )
+  }
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
