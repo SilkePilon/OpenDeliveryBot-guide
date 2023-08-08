@@ -1,5 +1,16 @@
 const config = {
-  logo: <span>My Project</span>,
+  logoLink: '/',
+  logo: (
+    <>
+      <img src='/prismarine_js.svg'/>
+      <span style={{ marginLeft: '.4em', fontWeight: 800, color: '#52a58e' }}>
+        Prismarine
+      </span>
+      <sup style={{ fontWeight: 800, color: '#2c5a4c', top: '-0.4em' }}>
+      JS
+      </sup>
+    </>// // this double slash stops IDE from freaking out
+  ),
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
