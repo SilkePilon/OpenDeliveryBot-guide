@@ -25,7 +25,7 @@ const config = {
         />
       </>
     )
-  }
+  },
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
