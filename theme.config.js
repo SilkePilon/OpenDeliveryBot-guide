@@ -1,5 +1,4 @@
-let { useRouter } = require('next/router');
-let { useConfig } = require('nextra-theme-docs');
+import { useConfig } from 'nextra-theme-docs'
 
 const config = {
   logoLink: '/',
@@ -15,7 +14,6 @@ const config = {
     </>// // this double slash stops IDE from freaking out
   ),
   head: () => {
-    const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
  
     return (
