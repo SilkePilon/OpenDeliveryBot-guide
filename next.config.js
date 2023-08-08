@@ -3,7 +3,7 @@ const withNextra = require('nextra')({
     themeConfig: './theme.config.js',
 })
 module.exports = withNextra({
-  basePath: 'https://pix3lpirat3.github.io/mineflayer-guide/',
+  basePath: '/mineflayer-guide',
   images: {
     unoptimized: true
   }
