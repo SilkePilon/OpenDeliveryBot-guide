@@ -24,16 +24,16 @@ const config = {
       </>
     )
   },
+  footer: {
+    text: `MIT License ${new Date().getFullYear()}`
+  },
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/Pix3lPirat3/mineflayer-guide/',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/prismarinejs-413438066984747026',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Nextra Docs Template',
-  },
+  docsRepositoryBase: 'https://github.com/Pix3lPirat3/mineflayer-guide/'
 }
 
 export default config
