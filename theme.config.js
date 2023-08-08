@@ -26,7 +26,7 @@ const config = {
   },
   useNextSeoProps: () => {
     const { frontMatter } = useConfig()
-    return: {
+    return {
       titleTemplate: '%s – Guide',
       description: frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.'
     }
