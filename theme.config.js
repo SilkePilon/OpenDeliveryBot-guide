@@ -15,7 +15,7 @@ const config = {
     return {
       titleTemplate: '%s'
     }
-  }
+  },
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
