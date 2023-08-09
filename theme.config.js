@@ -57,7 +57,7 @@ const config = {
   feedback: {
     content: null
   },
-  primaryHue: 190,
+  primaryHue: 190
 }
 
 export default config
