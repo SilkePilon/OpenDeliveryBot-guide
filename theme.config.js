@@ -21,7 +21,7 @@ const config = {
         <meta property="og:title" content={frontMatter.title || '🦃'} />
         <meta property="og:description" content={frontMatter.description || 'A beginner friendly guide for mineflayer written by users for users.'}
         />
-      </>
+      </>// // this double slash stops IDE from freaking out
     )
   },
   useNextSeoProps: () => {
