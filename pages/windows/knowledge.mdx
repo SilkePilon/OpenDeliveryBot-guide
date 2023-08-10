@@ -1,0 +1,11 @@
+# Knowledge Database
+
+## `.items()` or `slots` empty or null
+The items of a window may not be sent when the window is opened, and may instead be sent by the server after the window is opened. This meaning you may need to just add a delay before interacting with the window. 
+```js copy
+bot.on('windowOpen', async function(window) {
+  await bot.waitForTicks(20); // 20 ticks is 1 second, delay may depend on server
+  // Interact with window
+})
+
+```
