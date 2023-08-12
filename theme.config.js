@@ -4,7 +4,7 @@ const config = {
   logoLink: '/',
   logo: (
     <>
-      <img src='./prismarine_js.svg'/>
+      <img src='/prismarine_js.svg'/>
       <span style={{ marginLeft: '.4em', fontWeight: 800, color: '#52a58e' }}>
         Prismarine
       </span>
