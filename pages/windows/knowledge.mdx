@@ -9,3 +9,17 @@ bot.on('windowOpen', async function(window) {
 })
 
 ```
+
+## requiresConfirmation
+If you get an error like these, it simply means your interaction wasn't successful, or in most cases "as intended". On servers where you use a "fake" inventory as a server selector for example, your interaction is actually cancelled ("rejected") but the server does this so you can't take items out of inventories you shouldn't be able to. All you need to do is change `window.requiresConfirmation` to your window interaction.
+```
+Error: Server didn't respond to transaction for clicking on slot ${slot} on window with id ${window?.id}.
+Error: Server rejected transaction for clicking on slot {slot}, on window with id ${window?.id}.
+```
+
+```js copy
+bot.on('windowOpen', function() {
+  window.requiresConfirmation = false;
+  // Add code
+})
+```
