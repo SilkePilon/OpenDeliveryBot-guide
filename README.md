@@ -6,7 +6,7 @@ This is not official documentation for PrismarineJS, it is a beginner friendly g
 
 
 ## Contribute
-If you want to add, or edit pages you can make a pull request
+If you want to add, or edit pages you can make a pull request. You can also suggest lessons and guides.
 
 ## License
 
