@@ -1,10 +1,12 @@
 import { useConfig } from 'nextra-theme-docs'
 
+let isDevEnvironment =  process.env.NODE_ENV === 'development';
+
 const config = {
   logoLink: '/',
   logo: (
     <>
-      <img src='/prismarine_js.svg'/>
+      <img src={isDevEnvironment ? '/prismarine_js.svg' : '/mineflayer-guide/prismarine_js.svg'}/>
       <span style={{ marginLeft: '.4em', fontWeight: 800, color: '#52a58e' }}>
         Prismarine
       </span>
