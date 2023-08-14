@@ -19,6 +19,9 @@
     "type": "page",
     "display": "hidden"
   },
+  "guides": {
+    "title": "Guides"
+  },
   "api": {
     "title": "API",
     "type": "page",
