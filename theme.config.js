@@ -50,7 +50,8 @@ const config = {
     text: 'This is not official documentation for PrismarineJS'
   },
   sidebar: {
-    toggleButton: true
+    toggleButton: true,
+    defaultMenuCollapseLevel: Infinity
   },
   toc: {
     float: true
