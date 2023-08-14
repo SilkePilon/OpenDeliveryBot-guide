@@ -1,0 +1,19 @@
+# General Inventory
+
+A collection of general guides for interacting with a bot inventory.
+
+## Selecting Items
+
+The easiest way to get an item from your inventory is by using [`bot.inventory.findInventoryItem`](/windows/api#windowfindinventoryitem), which accepts an `id` or `name`.
+```js copy
+let item = bot.inventory.findInventoryItem('stone')
+if(!item) return console.log('I don\'t have any of that item in my inventory.')
+```
+
+## Equipping Items
+If you need to equip an item in your inventory, you can use `bot.equip(item)` which will move an item from the inventory to the hotbar, or if the item is already in the hotbar it will move to that item.
+```js copy
+let item = bot.inventory.findInventoryItem('stone')
+if(!item) return console.log('I don\'t have any of that item in my inventory.')
+bot.equip(item)
+```
