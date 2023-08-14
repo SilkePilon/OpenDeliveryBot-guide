@@ -1,9 +1,24 @@
 {
   "index": "Introduction",
-  "windows": "Windows",
-  "entities": "Entities",
-  "movements": "Movements",
-  "pathfinding": "Pathfinding",
+  "windows": {
+    "title": "Windows",
+    "display": "normal"
+  },
+  "entities": {
+    "title": "Entities",
+    "type": "page",
+    "display": "hidden"
+  },
+  "movements": {
+    "title": "Movements",
+    "type": "page",
+    "display": "hidden"
+  },
+  "pathfinding": {
+    "title": "Pathfinding",
+    "type": "page",
+    "display": "hidden"
+  },
   "api": {
     "title": "API",
     "type": "page",
