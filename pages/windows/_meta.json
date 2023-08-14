@@ -1,6 +1,6 @@
 {
   "introduction": {
-    "title": "» Introduction",
+    "title": "Introduction",
     "display": "normal"
   },
   "identifying": {
@@ -20,11 +20,11 @@
     "display": "hidden"
   },
   "api": {
-    "title": "» API",
+    "title": "API",
     "display": "normal"
   },
   "knowledge": {
-    "title": "» Knowledge",
+    "title": "Knowledge",
     "display": "normal"
   }
 }
