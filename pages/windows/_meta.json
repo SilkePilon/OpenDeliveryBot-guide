@@ -1,30 +1,6 @@
 {
-  "introduction": {
-    "title": "Introduction",
-    "display": "normal"
-  },
-  "identifying": {
-    "title": "Identify Windows",
-    "display": "hidden"
-  },
-  "choosing_items": {
-    "title": "Choosing Items",
-    "display": "normal"
-  },
-  "clicking": {
-    "title": "Clicking Items",
-    "display": "hidden"
-  },
-  "multiple_windows": {
-    "title": "Multiple Windows",
-    "display": "hidden"
-  },
-  "api": {
-    "title": "API",
-    "display": "normal"
-  },
-  "knowledge": {
-    "title": "Knowledge",
-    "display": "normal"
-  }
+  "introduction": "Introduction",
+  "choosing_items": "Choosing Items",
+  "api":  "API",
+  "knowledge": "Knowledge"
 }
